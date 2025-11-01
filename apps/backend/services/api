@@ -1,0 +1,4 @@
+ $env:LLM_API_BASE="https://openrouter.ai/api/v1"
+$env:LLM_MODEL="meta-llama/Meta-Llama-3.1-8B-Instruct"
+$env:APP_URL="http://localhost:3000"
+$env:APP_NAME="Resume Annotation Assistant"

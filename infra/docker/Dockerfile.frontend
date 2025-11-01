@@ -1,0 +1,7 @@
+FROM node:20-alpine
+WORKDIR /app
+COPY apps/frontend ./apps/frontend
+RUN corepack enable && cd apps/frontend && npm i --prefer-offline && npm run build || true
+EXPOSE 3000
+CMD ["sh","-lc","cd apps/frontend && npm run dev -- -p 3000"]
+

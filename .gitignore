@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.pyc
+__pycache__/
+node_modules/
+apps/frontend/.next/
+dist/
+build/
+*.log
+Swytch2BResumeSuggestor/
